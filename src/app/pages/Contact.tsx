@@ -22,7 +22,7 @@ export default function Contact() {
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        body: formData
+        body: formData,
       });
 
       const data = await response.json();
@@ -52,7 +52,6 @@ export default function Contact() {
       {/* HERO */}
       <section className="relative pt-32 pb-24 bg-gradient-to-b from-black via-[#DC2626]/10 to-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
             CONTACT <span className="text-[#DC2626]">US</span>
           </h1>
@@ -61,19 +60,15 @@ export default function Contact() {
             Ready to work with us? Get in touch with our team to discuss
             production, distribution, publishing, or technology partnerships.
           </p>
-
         </div>
       </section>
 
       {/* CONTACT SECTION */}
       <section className="py-24 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
           <div className="grid lg:grid-cols-2 gap-12">
-
             {/* CONTACT FORM */}
             <div className="bg-gradient-to-br from-zinc-900 to-black border-2 border-zinc-800 p-10">
-
               <h3 className="text-2xl font-bold mb-8 uppercase tracking-wide">
                 Send Us A Message
               </h3>
@@ -91,7 +86,6 @@ export default function Contact() {
               )}
 
               <form onSubmit={handleSubmit} className="space-y-6">
-
                 {/* REQUIRED WEB3FORMS FIELDS */}
                 <input
                   type="hidden"
@@ -177,25 +171,11 @@ export default function Contact() {
                       Select inquiry type
                     </option>
 
-                    <option value="production">
-                      Production Services
-                    </option>
-
-                    <option value="distribution">
-                      Distribution Partnership
-                    </option>
-
-                    <option value="publishing">
-                      Publishing & IP
-                    </option>
-
-                    <option value="tech">
-                      Creative Tech
-                    </option>
-
-                    <option value="general">
-                      General Inquiry
-                    </option>
+                    <option value="production">Production Services</option>
+                    <option value="distribution">Distribution Partnership</option>
+                    <option value="publishing">Publishing &amp; IP</option>
+                    <option value="tech">Creative Tech</option>
+                    <option value="general">General Inquiry</option>
                   </select>
                 </div>
 
@@ -221,48 +201,108 @@ export default function Contact() {
                   className="w-full bg-[#DC2626] hover:bg-[#B91C1C] text-white uppercase font-bold py-6"
                 >
                   <Send className="mr-2 h-5 w-5" />
-
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
-
               </form>
             </div>
 
-            {/* CONTACT INFO */}
-            <div className="bg-gradient-to-br from-zinc-900 to-black border-2 border-zinc-800 p-10 space-y-6">
+            {/* RIGHT COLUMN */}
+            <div className="space-y-8">
+              {/* CONTACT INFO */}
+              <div className="bg-gradient-to-br from-zinc-900 to-black border-2 border-zinc-800 p-10 space-y-6">
+                <h3 className="text-2xl font-bold mb-8 uppercase">
+                  Contact Information
+                </h3>
 
-              <h3 className="text-2xl font-bold mb-8 uppercase">
-                Contact Information
-              </h3>
+                <div className="flex items-start gap-4">
+                  <Mail className="text-[#DC2626]" />
+                  <a href="mailto:info@deomedia.net">
+                    info@deomedia.net
+                  </a>
+                </div>
 
-              <div className="flex items-start gap-4">
-                <Mail className="text-[#DC2626]" />
+                <div className="flex items-start gap-4">
+                  <Phone className="text-[#DC2626]" />
+                  <a href="tel:+4422120022012">
+                    +44 (0) 221 2002 2012
+                  </a>
+                </div>
 
-                <a href="mailto:info@deomedia.net">
-                  info@deomedia.net
-                </a>
+                <div className="flex items-start gap-4">
+                  <MapPin className="text-[#DC2626]" />
+                  <p>
+                    Springhead Road
+                    <br />
+                    Northfleet, Kent
+                    <br />
+                    United Kingdom, DA11 8HN
+                  </p>
+                </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <Phone className="text-[#DC2626]" />
+              {/* Office Locations */}
+              <div className="bg-gradient-to-br from-zinc-900 to-black border-2 border-zinc-800 p-10">
+                <h3 className="text-2xl font-bold mb-8 uppercase tracking-wide">
+                  Office Locations
+                </h3>
 
-                <a href="tel:+4422120022012">
-                  +44 (0) 221 2002 2012
-                </a>
+                <div className="space-y-6">
+                  <div>
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-2xl">🇬🇧</span>
+                      <h4 className="text-white font-bold uppercase text-sm tracking-wider">
+                        United Kingdom
+                      </h4>
+                    </div>
+                    <p className="text-gray-400 text-sm ml-8">Headquarters</p>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-2xl">🇿🇦</span>
+                      <h4 className="text-white font-bold uppercase text-sm tracking-wider">
+                        South Africa
+                      </h4>
+                    </div>
+                    <p className="text-gray-400 text-sm ml-8">
+                      Johannesburg Office
+                    </p>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-2xl">🇳🇬</span>
+                      <h4 className="text-white font-bold uppercase text-sm tracking-wider">
+                        Nigeria
+                      </h4>
+                    </div>
+                    <p className="text-gray-400 text-sm ml-8">Lagos Office</p>
+                  </div>
+                </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <MapPin className="text-[#DC2626]" />
-
-                <p>
-                  Springhead Road<br/>
-                  Northfleet, Kent<br/>
-                  United Kingdom, DA11 8HN
+              {/* Business Hours */}
+              <div className="bg-gradient-to-br from-zinc-900 to-black border-2 border-zinc-800 p-10">
+                <h3 className="text-2xl font-bold mb-6 uppercase tracking-wide">
+                  Business Hours
+                </h3>
+                <p className="text-gray-400">
+                  <span className="text-white font-bold">
+                    Monday - Friday:
+                  </span>{" "}
+                  9:00 AM - 6:00 PM GMT
+                  <br />
+                  <span className="text-white font-bold">
+                    Saturday - Sunday:
+                  </span>{" "}
+                  Closed
+                </p>
+                <p className="text-sm text-gray-500 mt-4">
+                  We aim to respond to all inquiries within 24-48 business
+                  hours.
                 </p>
               </div>
-
             </div>
-
           </div>
         </div>
       </section>

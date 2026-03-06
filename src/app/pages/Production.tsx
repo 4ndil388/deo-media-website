@@ -395,7 +395,7 @@ export default function Production() {
       <Header variant="production" />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-24 bg-gradient-to-b from-black via-[#0A3D91]/20 to-black">
+      <section className="relative pt-32 pb-24 bg-gradient-to-b from-black via-[#2ab8fd]/20 to-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Production Logo */}
           <div className="flex justify-center mb-8">
@@ -417,7 +417,7 @@ export default function Production() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">ABOUT DEO MEDIA PRODUCTION</h2>
-            <div className="w-24 h-1 bg-[#0A3D91] mb-8" />
+            <div className="w-24 h-1 bg-[#2ab8fd] mb-8" />
             <p className="text-lg text-gray-300 leading-relaxed mb-6">
               Deo Media Production is a full-service film and media production company specializing in
               world-class African storytelling. From concept development to post-production, we deliver
@@ -462,7 +462,7 @@ export default function Production() {
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-black/50 group-hover:bg-black/40 transition-colors flex items-center justify-center">
-                    <div className="w-20 h-20 bg-[#0A3D91] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <div className="w-20 h-20 bg-[#2ab8fd] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                       <Play size={32} fill="white" className="ml-1" />
                     </div>
                   </div>
@@ -489,7 +489,7 @@ export default function Production() {
                 onClick={() => setActiveFilter(filter)}
                 className={`px-6 py-3 uppercase tracking-wider text-sm transition-all ${
                   activeFilter === filter
-                    ? "bg-[#0A3D91] text-white"
+                    ? "bg-[#2ab8fd] text-white"
                     : "bg-zinc-900 text-gray-400 hover:bg-zinc-800 hover:text-white"
                 }`}
               >
@@ -514,7 +514,7 @@ export default function Production() {
                   />
                   {(hasVideo(project) || hasAudio(project)) && (
                     <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/50 transition-colors">
-                      <div className="w-16 h-16 bg-[#0A3D91] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                      <div className="w-16 h-16 bg-[#2ab8fd] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                         <Play size={24} fill="white" className="ml-1" />
                       </div>
                     </div>
@@ -522,7 +522,7 @@ export default function Production() {
                 </div>
                 {!isClickable(project) && (
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
-                    <p className="text-sm text-[#0A3D91] uppercase tracking-wider mb-2">
+                    <p className="text-sm text-[#2ab8fd] uppercase tracking-wider mb-2">
                       {project.category} • {project.year}
                     </p>
                     <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
@@ -530,7 +530,7 @@ export default function Production() {
                   </div>
                 )}
                 <div className="p-6">
-                  <p className="text-sm text-[#0A3D91] uppercase tracking-wider mb-2">
+                  <p className="text-sm text-[#2ab8fd] uppercase tracking-wider mb-2">
                     {project.category}
                   </p>
                   <h3 className="text-xl font-bold">{project.title}</h3>
@@ -590,7 +590,7 @@ export default function Production() {
                 <div className="max-w-full mx-auto">
                   {/* Title and Description */}
                   <div className="mb-4 pb-4 border-b border-zinc-700">
-                    <p className="text-xs text-[#0A3D91] uppercase tracking-wider mb-1">
+                    <p className="text-xs text-[#2ab8fd] uppercase tracking-wider mb-1">
                       {selectedProject.category} • {selectedProject.year}
                     </p>
                     <h3 className="text-lg font-bold mb-1.5 text-white">{selectedProject.title}</h3>
@@ -619,7 +619,7 @@ export default function Production() {
                 <div className="max-w-full mx-auto">
                   {/* Title and Description */}
                   <div className="mb-6">
-                    <p className="text-xs text-[#0A3D91] uppercase tracking-wider mb-2">
+                    <p className="text-xs text-[#2ab8fd] uppercase tracking-wider mb-2">
                       {selectedProject.category} • {selectedProject.year}
                     </p>
                     <h3 className="text-2xl font-bold mb-3 text-white">{selectedProject.title}</h3>
@@ -643,7 +643,7 @@ export default function Production() {
             ) : null}
 
             <div className={`p-4 bg-zinc-900 ${hasAudio(selectedProject) || hasGallery(selectedProject) ? "hidden" : ""}`}>
-              <p className="text-xs text-[#0A3D91] uppercase tracking-wider mb-1">
+              <p className="text-xs text-[#2ab8fd] uppercase tracking-wider mb-1">
                 {selectedProject.category} • {selectedProject.year}
               </p>
               <h3 className="text-lg font-bold mb-1.5 text-white">{selectedProject.title}</h3>
@@ -654,7 +654,7 @@ export default function Production() {
       )}
 
       {/* CTA Section */}
-      <section className="py-24 bg-gradient-to-r from-[#0A3D91] to-[#082d6b]">
+      <section className="py-24 bg-gradient-to-r from-[#2ab8fd] to-[#2ab8fd]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Have a production in mind?
@@ -667,7 +667,7 @@ export default function Production() {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="inline-block"
           >
-            <span className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#0A3D91] uppercase tracking-wider hover:bg-transparent hover:text-white border-2 border-white transition-all font-bold">
+            <span className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#2ab8fd] uppercase tracking-wider hover:bg-transparent hover:text-white border-2 border-white transition-all font-bold">
               Contact Production Team
               <ArrowRight size={20} />
             </span>
