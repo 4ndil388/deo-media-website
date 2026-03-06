@@ -229,8 +229,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">Phone</h4>
-                      <a href="tel:+44XXXXXXXXXX" className="text-white hover:text-[#DC2626] transition-colors text-lg">
-                        +44 (0) XXX XXX XXXX
+                      <a href="tel:+4422120022012" className="text-white hover:text-[#DC2626] transition-colors text-lg">
+                        +44 (0) 221 2002 2012
                       </a>
                     </div>
                   </div>
