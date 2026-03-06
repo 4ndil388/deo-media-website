@@ -216,8 +216,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">Email</h4>
-                      <a href="mailto:info@deomedia.co.uk" className="text-white hover:text-[#DC2626] transition-colors text-lg">
-                        info@deomedia.co.uk
+                      <a href="mailto:info@deomedia.net" className="text-white hover:text-[#DC2626] transition-colors text-lg">
+                        info@deomedia.net
                       </a>
                     </div>
                   </div>
