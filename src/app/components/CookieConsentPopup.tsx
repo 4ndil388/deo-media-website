@@ -64,15 +64,15 @@ export function CookieConsentPopup({ onClose }: CookieConsentPopupProps) {
             </div>
 
             {/* Content */}
-            <div className="p-4 max-h-60 overflow-y-auto">
-              <div className="space-y-2 text-gray-300">
-                <p className="text-xs leading-relaxed">
+            <div className="p-3 max-h-44 overflow-y-auto">
+              <div className="space-y-1.5 text-gray-300">
+                <p className="text-xs leading-snug">
                   We use cookies and similar technologies to enhance your browsing experience, analyze site traffic, 
                   and personalize content. Cookies help us understand how you interact with our website and improve our services.
                 </p>
 
                 <div className="bg-black/50 border border-gray-800 p-2 rounded">
-                  <h4 className="text-white font-bold mb-1.5 uppercase text-xs tracking-wider">Types of Cookies We Use:</h4>
+                  <h4 className="text-white font-bold mb-1 uppercase text-xs tracking-wider">Types of Cookies We Use:</h4>
                   <ul className="space-y-0.5 text-xs">
                     <li className="flex items-start gap-2">
                       <span className="text-red-600 font-bold">•</span>
@@ -97,17 +97,17 @@ export function CookieConsentPopup({ onClose }: CookieConsentPopupProps) {
             </div>
 
             {/* Actions */}
-            <div className="flex flex-col sm:flex-row gap-2 p-4 border-t border-gray-800">
+            <div className="flex flex-col sm:flex-row gap-2 p-3 border-t border-gray-800">
               <Button
                 onClick={handleAccept}
-                className="flex-1 bg-red-600 hover:bg-red-700 text-white uppercase tracking-wide font-bold py-3 text-sm"
+                className="flex-1 bg-red-600 hover:bg-red-700 text-white uppercase tracking-wide font-bold py-2.5 text-sm"
               >
                 Accept All Cookies
               </Button>
               <Button
                 onClick={handleReject}
                 variant="outline"
-                className="flex-1 border-2 border-gray-700 hover:border-red-600 text-white hover:text-red-600 uppercase tracking-wide font-bold py-3 text-sm"
+                className="flex-1 border-2 border-gray-700 hover:border-red-600 text-white hover:text-red-600 uppercase tracking-wide font-bold py-2.5 text-sm"
               >
                 Reject Non-Essential
               </Button>

@@ -165,26 +165,31 @@ export default function Distribution() {
           
          
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-            Connecting African Stories with Global Audiences
+            Connecting untold  stories with global audiences
           </p>
         </div>
       </section>
 
-      {/* About Section */}
+          {/* About Section */}
       <section className="py-16 bg-zinc-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">ABOUT DEO MEDIA DISTRIBUTION</h2>
             <div className="w-24 h-1 bg-[#DC2626] mb-8" />
             <p className="text-lg text-gray-300 leading-relaxed mb-6">
-              Deo Media Distribution is your gateway to global audiences. With an extensive network spanning 
-              theatrical releases, premium streaming platforms, broadcast television, and digital channels, 
-              we ensure African content reaches viewers across multiple continents.
+              Deo Media Distribution connects powerful stories with global audiences.
+            </p>
+            <p className="text-lg text-gray-300 leading-relaxed mb-6">
+              Working across theatrical, broadcast, streaming, and digital platforms, we help bring films and television content to audiences worldwide through strategic licensing and market partnerships.
+            </p>
+            <p className="text-lg text-gray-300 leading-relaxed mb-6">
+              Our network includes international sales partners, streaming platforms, broadcasters, and digital distributors, allowing us to position content in the territories and platforms where it can perform best.
+            </p>
+            <p className="text-lg text-gray-300 leading-relaxed mb-6">
+              We support producers and content owners through every stage of the distribution process — from rights strategy and territory sales to platform negotiations and release planning.
             </p>
             <p className="text-gray-400 leading-relaxed">
-              Our experienced team handles every aspect of distribution—from rights acquisition and strategic 
-              positioning to marketing campaigns and revenue optimization. We are committed to maximizing the 
-              reach and impact of every film we represent.
+              Whether launching new productions or expanding the reach of completed projects, Deo Media Distribution focuses on maximizing both audience reach and long-term commercial value.
             </p>
           </div>
         </div>
