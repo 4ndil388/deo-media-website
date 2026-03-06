@@ -52,23 +52,27 @@ export default function Publishing() {
         </div>
       </section>
 
-      {/* About Section */}
+  {/* About Section */}
       <section className="py-16 bg-zinc-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">ABOUT DEO MEDIA PUBLISHING</h2>
             <div className="w-24 h-1 bg-[#6B3F1D] mb-8" />
             <p className="text-lg text-gray-300 leading-relaxed mb-6">
-              Deo Media Publishing is dedicated to amplifying African voices through premium books,
-              eBooks, and curated merchandise. We partner with talented authors, illustrators, and
-              creatives to produce high-quality publications that celebrate African culture, history,
-              and contemporary experiences.
+              Deo Media Publishing is the original storytelling and publishing division of Deo Media.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-6">
+              We create and publish our own original stories across books, digital experiences, animation, and merchandise. Our focus is on developing imaginative worlds, memorable characters, and meaningful stories that children and families everywhere can enjoy.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-6">
+              Rather than acting as a traditional publisher for external authors, Deo Media Publishing develops original intellectual properties in-house, transforming them into multi-platform experiences that can live across books, apps, animation, and products.
+            </p>
+            <p className="text-lg text-gray-300 leading-relaxed mb-6 font-semibold">
+              Our goal is simple:<br />
+              Create stories that are worth reading, worth sharing, and worth building worlds around.
             </p>
             <p className="text-gray-400 leading-relaxed">
-              From fiction and non-fiction to children's books and art collections, our catalog spans
-              diverse genres and formats. We provide comprehensive publishing services including editorial
-              development, design, distribution, and marketing to ensure every publication reaches its
-              intended audience.
+              Our first flagship story universe is THE AFROTODS, a children's adventure set in the vibrant world of Afroville.
             </p>
           </div>
         </div>
@@ -82,29 +86,78 @@ export default function Publishing() {
             <div className="bg-zinc-900 border border-[#6B3F1D]/30 p-8 hover:border-[#6B3F1D] transition-colors group">
               <BookOpen className="text-[#6B3F1D] mb-4 group-hover:scale-110 transition-transform" size={40} />
               <h3 className="text-2xl font-bold mb-4">Books</h3>
+              <p className="text-gray-300 leading-relaxed mb-4">
+                Original books created and published by the Deo Media team.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-4">
+                These stories introduce readers to imaginative worlds, memorable characters, and engaging adventures designed for children and families.
+              </p>
               <p className="text-gray-400 leading-relaxed">
-                Premium hardcover and paperback publications featuring Africa's finest literary voices.
-                From contemporary fiction to historical narratives, our collection celebrates storytelling
-                at its best.
+                Our debut title introduces readers to THE AFROTODS, a playful and imaginative world following Fola and Kelani as they explore the colourful land of Afroville.
               </p>
             </div>
 
             <div className="bg-zinc-900 border border-[#6B3F1D]/30 p-8 hover:border-[#6B3F1D] transition-colors group">
               <Smartphone className="text-[#6B3F1D] mb-4 group-hover:scale-110 transition-transform" size={40} />
-              <h3 className="text-2xl font-bold mb-4">eBooks</h3>
+              <h3 className="text-2xl font-bold mb-4">Digital Books & Apps</h3>
+              <p className="text-gray-300 leading-relaxed mb-4">
+                Interactive storytelling experiences designed for modern devices.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-3">
+                These include:
+              </p>
+              <ul className="text-gray-400 leading-relaxed mb-4 space-y-1 list-none">
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6B3F1D] mt-1">•</span>
+                  <span>Animated storybooks</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6B3F1D] mt-1">•</span>
+                  <span>Voice-narrated reading experiences</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6B3F1D] mt-1">•</span>
+                  <span>Interactive learning elements</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6B3F1D] mt-1">•</span>
+                  <span>Mobile and tablet apps</span>
+                </li>
+              </ul>
               <p className="text-gray-400 leading-relaxed">
-                Digital publications accessible worldwide, including eBooks and audiobooks optimized
-                for modern readers. Available on major platforms with seamless reading experiences
-                across devices.
+                Digital formats allow our stories to be experienced in dynamic new ways across phones, tablets, and computers.
               </p>
             </div>
 
             <div className="bg-zinc-900 border border-[#6B3F1D]/30 p-8 hover:border-[#6B3F1D] transition-colors group">
               <ShoppingBag className="text-[#6B3F1D] mb-4 group-hover:scale-110 transition-transform" size={40} />
               <h3 className="text-2xl font-bold mb-4">Merchandise</h3>
+              <p className="text-gray-300 leading-relaxed mb-4">
+                Official products inspired by our original story worlds.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-3">
+                These include:
+              </p>
+              <ul className="text-gray-400 leading-relaxed mb-4 space-y-1 list-none">
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6B3F1D] mt-1">•</span>
+                  <span>Character apparel</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6B3F1D] mt-1">•</span>
+                  <span>Toys and plush collectibles</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6B3F1D] mt-1">•</span>
+                  <span>Educational products</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#6B3F1D] mt-1">•</span>
+                  <span>Art and lifestyle merchandise</span>
+                </li>
+              </ul>
               <p className="text-gray-400 leading-relaxed">
-                Curated merchandise inspired by our publications and productions. From art prints
-                and posters to apparel and collectibles, bringing African creativity into everyday life.
+                Each product extends our storytelling worlds beyond the page and into everyday life.
               </p>
             </div>
           </div>
@@ -188,7 +241,7 @@ export default function Publishing() {
       <section className="py-24 bg-gradient-to-r from-[#6B3F1D] to-[#4d2a14]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Ready to publish with us?
+           Ready to partner with us on our stories?
           </h2>
           <p className="text-xl text-gray-100 mb-12 max-w-2xl mx-auto">
             Whether you're an author, illustrator, or creative, Deo Media Publishing is here to
