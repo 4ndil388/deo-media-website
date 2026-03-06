@@ -22,8 +22,14 @@ export default function Home() {
       {/* Four Verticals Section */}
       <FourVerticals />
 
+      {/* Tech Section */}
+      <TechPreview />
+
       {/* Production Section */}
       <ProductionPreview />
+
+      {/* Publishing Section */}
+      <PublishingPreview />
 
       {/* Distribution Section */}
       <section id="distribution" className="py-24 bg-gradient-to-b from-black via-gray-900 to-black">
@@ -51,24 +57,16 @@ export default function Home() {
             <p className="text-gray-400 mb-8 text-lg max-w-2xl mx-auto">
               We work with filmmakers, producers, and content creators to bring their stories to audiences worldwide.
             </p>
-      <Link
-  to="/distribution"
-  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-  className="inline-block"
->
-  <span className="inline-flex items-center justify-center gap-2 px-10 py-5 bg-red-600 text-white uppercase tracking-wider hover:bg-red-700 transition-colors font-bold text-base">
-    SEE OUR DISTRIBUTIONS →
-  </span>
-</Link>
+            <Link
+              to="/distribution"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="inline-flex items-center gap-2 px-8 py-6 bg-[#DC2626] text-white uppercase tracking-wider hover:bg-[#B91C1C] transition-colors font-semibold text-base"
+            >
+              SEE OUR DISTRIBUTIONS →
+            </Link>
           </div>
         </div>
       </section>
-
-      {/* Publishing Section */}
-      <PublishingPreview />
-
-      {/* Tech Section */}
-      <TechPreview />
 
       <Footer />
     </div>
