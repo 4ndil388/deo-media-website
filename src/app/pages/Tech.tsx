@@ -242,8 +242,7 @@ export default function Tech() {
             Want to work with our tech platforms?
           </h2>
           <p className="text-xl text-gray-100 mb-12 max-w-2xl mx-auto">
-            Join thousands of creators and businesses already using Deo Media Tech platforms 
-            to streamline their workflows and grow their business.
+            Join creators and businesses already using Deo Media Tech platforms to streamline their workflows.
           </p>
          <Link
   to="/contact"

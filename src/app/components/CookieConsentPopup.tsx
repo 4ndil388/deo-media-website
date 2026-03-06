@@ -45,35 +45,35 @@ export function CookieConsentPopup({ onClose }: CookieConsentPopupProps) {
           isVisible ? "translate-y-0" : "translate-y-full"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-6">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pb-6">
           <div className="bg-gradient-to-br from-gray-900 to-black border-2 border-red-600 shadow-2xl">
             {/* Header */}
-            <div className="flex items-center justify-between p-6 border-b border-gray-800">
+            <div className="flex items-center justify-between p-4 border-b border-gray-800">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
-                  <Cookie className="w-6 h-6 text-white" />
+                <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center">
+                  <Cookie className="w-5 h-5 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-white uppercase tracking-tight">Cookie Policy</h3>
+                <h3 className="text-xl font-bold text-white uppercase tracking-tight">Cookie Policy</h3>
               </div>
               <button
                 onClick={handleClose}
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                <X className="w-6 h-6" />
+                <X className="w-5 h-5" />
               </button>
             </div>
 
             {/* Content */}
-            <div className="p-6 max-h-96 overflow-y-auto">
-              <div className="space-y-4 text-gray-300">
-                <p className="text-base leading-relaxed">
+            <div className="p-4 max-h-60 overflow-y-auto">
+              <div className="space-y-2 text-gray-300">
+                <p className="text-xs leading-relaxed">
                   We use cookies and similar technologies to enhance your browsing experience, analyze site traffic, 
                   and personalize content. Cookies help us understand how you interact with our website and improve our services.
                 </p>
 
-                <div className="bg-black/50 border border-gray-800 p-4 rounded">
-                  <h4 className="text-white font-bold mb-2 uppercase text-sm tracking-wider">Types of Cookies We Use:</h4>
-                  <ul className="space-y-2 text-sm">
+                <div className="bg-black/50 border border-gray-800 p-2 rounded">
+                  <h4 className="text-white font-bold mb-1.5 uppercase text-xs tracking-wider">Types of Cookies We Use:</h4>
+                  <ul className="space-y-0.5 text-xs">
                     <li className="flex items-start gap-2">
                       <span className="text-red-600 font-bold">•</span>
                       <span><strong className="text-white">Essential Cookies:</strong> Required for the website to function properly</span>
@@ -89,7 +89,7 @@ export function CookieConsentPopup({ onClose }: CookieConsentPopupProps) {
                   </ul>
                 </div>
 
-                <p className="text-sm text-gray-400">
+                <p className="text-xs text-gray-400">
                   By clicking "Accept All Cookies", you consent to the use of all cookies. 
                   You can choose to reject non-essential cookies by clicking "Reject Non-Essential".
                 </p>
@@ -97,17 +97,17 @@ export function CookieConsentPopup({ onClose }: CookieConsentPopupProps) {
             </div>
 
             {/* Actions */}
-            <div className="flex flex-col sm:flex-row gap-3 p-6 border-t border-gray-800">
+            <div className="flex flex-col sm:flex-row gap-2 p-4 border-t border-gray-800">
               <Button
                 onClick={handleAccept}
-                className="flex-1 bg-red-600 hover:bg-red-700 text-white uppercase tracking-wide font-bold py-4"
+                className="flex-1 bg-red-600 hover:bg-red-700 text-white uppercase tracking-wide font-bold py-3 text-sm"
               >
                 Accept All Cookies
               </Button>
               <Button
                 onClick={handleReject}
                 variant="outline"
-                className="flex-1 border-2 border-gray-700 hover:border-red-600 text-white hover:text-red-600 uppercase tracking-wide font-bold py-4"
+                className="flex-1 border-2 border-gray-700 hover:border-red-600 text-white hover:text-red-600 uppercase tracking-wide font-bold py-3 text-sm"
               >
                 Reject Non-Essential
               </Button>
