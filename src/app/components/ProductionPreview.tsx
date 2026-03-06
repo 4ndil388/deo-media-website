@@ -14,18 +14,18 @@ export function ProductionPreview() {
     },
     {
       title: "Comatose",
-   
+     
       image: comatoseImage
     },
     {
       title: "COVID-19 Campaign",
-    
+     
       image: covid19Image
     }
   ];
 
   return (
-    <section id="production" className="py-24 bg-[#18181b]">
+    <section id="production" className="py-24 bg-gradient-to-b from-black via-gray-900 to-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">

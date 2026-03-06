@@ -1,9 +1,10 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { Calculator, DollarSign, Smartphone } from "lucide-react";
+import { Calculator, CircleDollarSign, Smartphone } from "lucide-react";
 import { Link } from "react-router";
 import afrotodsAppImage from "../../assets/images/afrotods-app.png";
 import prodculatorImage from "../../assets/images/prodculator.png";
 import shomytaxImage from "../../assets/images/shomytax.png";
+
 
 export function TechPreview() {
   const platforms = [
@@ -17,7 +18,7 @@ export function TechPreview() {
     },
     {
       name: "Shomytax",
-      icon: DollarSign,
+      icon: CircleDollarSign,
       description: "Tax clarity platform helping individuals understand their tax position.",
       status: "COMING SOON",
       statusColor: "bg-yellow-600",
@@ -34,7 +35,7 @@ export function TechPreview() {
   ];
 
   return (
-    <section id="tech" className="py-24 bg-gradient-to-b from-black via-gray-900 to-black">
+    <section id="tech" className="py-24 bg-[#18181b]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
@@ -89,6 +90,7 @@ export function TechPreview() {
             </div>
           ))}
         </div>
+
 
         {/* CTA Button */}
        <div className="text-center">
