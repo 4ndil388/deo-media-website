@@ -653,27 +653,27 @@ export default function Production() {
         </div>
       )}
 
- {/* CTA Section */}
-<section className="py-24 bg-gradient-to-r from-[#3B82F6] to-[#3B82F6]">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 className="text-4xl md:text-5xl font-bold mb-6">
-      Have a production in mind?
-    </h2>
-    <p className="text-xl text-gray-200 mb-12 max-w-2xl mx-auto">
-      Let's bring your vision to life. Our production team is ready to collaborate on your next project.
-    </p>
-    <Link
-      to="/contact"
-      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-      className="inline-block"
-    >
-      <span className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#3B82F6] uppercase tracking-wider hover:bg-transparent hover:text-white border-2 border-white transition-all font-bold">
-        Contact Production Team
-        <ArrowRight size={20} />
-      </span>
-    </Link>
-  </div>
-</section>
+      {/* CTA Section */}
+      <section className="py-24 bg-gradient-to-r from-[#263ed9] to-[#263ed9]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            Have a production in mind?
+          </h2>
+          <p className="text-xl text-gray-200 mb-12 max-w-2xl mx-auto">
+            Let's bring your vision to life. Our production team is ready to collaborate on your next project.
+          </p>
+          <Link
+            to="/contact"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="inline-block"
+          >
+            <span className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#2ab8fd] uppercase tracking-wider hover:bg-transparent hover:text-white border-2 border-white transition-all font-bold">
+              Contact Production Team
+              <ArrowRight size={20} />
+            </span>
+          </Link>
+        </div>
+      </section>
 
       <Footer />
     </div>
