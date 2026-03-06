@@ -243,10 +243,7 @@ export default function Publishing() {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
            Ready to partner with us on our stories?
           </h2>
-          <p className="text-xl text-gray-100 mb-12 max-w-2xl mx-auto">
-            Whether you're an author, illustrator, or creative, Deo Media Publishing is here to
-            help bring your work to readers around the world.
-          </p>
+       
           <Link
             to="/contact"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
