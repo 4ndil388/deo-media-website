@@ -296,9 +296,7 @@ export default function Production() {
       year: "2026",
       description: "An exciting new entertainment and music production celebrating Lagos culture and vibrant city life, currently in development.",
       galleryImages: [
-        devGallery1,
-        devGallery2,
-        devGallery3
+        devGallery1
       ]
     },
     {
