@@ -35,17 +35,18 @@ import printGallery1 from "../../assets/images/print1.png";
 import printGallery2 from "../../assets/images/print2.png";
 import printGallery3 from "../../assets/images/print3.png";
 import printGallery4 from "../../assets/images/print4.png";
-
+import lacaseraImage from "../../assets/images/lacasera.png";
 // ✅ VIDEO IMPORTS
 import showcaseReel from "../../assets/videos/reel.mp4";
 import covidVideo from "../../assets/videos/covid.mp4";
 import afrotodsVideo from "../../assets/videos/ajad.mp4";
 import ejeVideo from "../../assets/videos/eje.mp4";
-import comatoseVideo from "../../assets/videos/DEO_Reel_07.mp4";
+import comatoseVideo from "../../assets/videos/comatose.mp4";
 import gtbankVideo from "../../assets/videos/gt.mp4";
 import frutiyaVideo from "../../assets/videos/frutiya.mp4";
 import seplatVideo from "../../assets/videos/seplat.mp4";
 import ngxVideo from "../../assets/videos/ngx.mp4";
+import lacaseraVideo from "../../assets/videos/lacasera.mp4";
 
 // ✅ AUDIO IMPORTS
 import youthSpot1 from "../../assets/audio/vaxed1.mp3";
@@ -319,6 +320,14 @@ export default function Production() {
         printGallery3,
         printGallery4
       ]
+    },
+     {
+      title: "La Casera",
+      category: "TV Commercials",
+      image: lacaseraImage,
+      year: "2024",
+      description: "A refreshing commercial campaign for La Casera, highlighting the authentic taste and cultural connection of this beloved beverage.",
+      videoUrl: lacaseraVideo,
     },
     {
       title: "Frutiya",
