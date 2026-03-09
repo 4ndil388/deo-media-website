@@ -129,7 +129,7 @@ export function DisclaimerPopup({ onClose }: DisclaimerPopupProps) {
 
   <Button
     onClick={handleReject}
-    className="flex-1 bg-red-600 hover:bg-red-700 active:scale-[0.98] transition-all duration-150 text-white uppercase tracking-wide font-bold py-3 text-sm rounded-md shadow-lg"
+    className="flex-1 bg-gray-800 hover:bg-gray-700 border border-gray-700 hover:border-red-500 text-white uppercase tracking-wide font-bold py-3 text-sm rounded-md transition-all duration-150"
   >
     Decline
   </Button>
