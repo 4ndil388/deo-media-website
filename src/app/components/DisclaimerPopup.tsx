@@ -118,23 +118,22 @@ export function DisclaimerPopup({ onClose }: DisclaimerPopupProps) {
                 </p>
               </div>
             </div>
+{/* Actions */}
+<div className="flex flex-col sm:flex-row gap-3 p-4 border-t border-gray-800">
+  <Button
+    onClick={handleAccept}
+    className="flex-1 bg-red-600 hover:bg-red-700 active:scale-[0.98] transition-all duration-150 text-white uppercase tracking-wide font-bold py-3 text-sm rounded-md shadow-lg"
+  >
+    I Understand & Accept
+  </Button>
 
-            {/* Actions */}
-            <div className="flex flex-col sm:flex-row gap-2 p-3 border-t border-gray-800">
-              <Button
-                onClick={handleAccept}
-                className="flex-1 bg-red-600 hover:bg-red-700 text-white uppercase tracking-wide font-bold py-2.5 text-sm"
-              >
-                I Understand & Accept
-              </Button>
-              <Button
-                onClick={handleReject}
-                variant="outline"
-                className="flex-1 border-2 border-gray-700 hover:border-red-600 text-white hover:text-red-600 uppercase tracking-wide font-bold py-2.5 text-sm"
-              >
-                Decline
-              </Button>
-            </div>
+  <Button
+    onClick={handleReject}
+    className="flex-1 bg-gray-800 hover:bg-gray-700 border border-gray-700 hover:border-red-500 text-white uppercase tracking-wide font-bold py-3 text-sm rounded-md transition-all duration-150"
+  >
+    Decline
+  </Button>
+</div>
           </div>
         </div>
       </div>
