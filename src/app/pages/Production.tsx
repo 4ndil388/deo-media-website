@@ -110,7 +110,7 @@ export default function Production() {
       title: "Afrotods Animated Series",
       category: "Animation",
       image: afrotodsImage,
-      year: "2024",
+      year: "2026",
       description: "An exciting animated series celebrating African culture and storytelling through vibrant characters.",
       videoUrl: afrotodsVideo,
     },
@@ -118,7 +118,7 @@ export default function Production() {
       title: "EJE",
       category: "Movies",
       image: ejeImage,
-      year: "2025",
+      year: "2022",
       description: " Lara, an unemployed young lady, responds to an online ad for a babysitter. To her surprise, she gets the job with just a phone interview and no reference checks.",
       videoUrl: ejeVideo,
     },
@@ -126,7 +126,7 @@ export default function Production() {
       title: "COMATOSE",
       category: "Movies",
       image: comatoseImage,
-      year: "2024",
+      year: "2019",
       description: "A psychological thriller exploring the depths of human consciousness.",
       videoUrl: comatoseVideo,
     },
@@ -134,7 +134,7 @@ export default function Production() {
       title: "GT Bank Branding",
       category: "Outdoor",
       image: gtBankImage,
-      year: "2023",
+      year: "2016",
       description: "Large-scale branding and environmental graphics for GT Bank's global business locations.",
       galleryImages: [
         outdoorGallery1,
@@ -147,7 +147,7 @@ export default function Production() {
       title: "Youth Vaccine PSA",
       category: "Radio",
       image: youthVaccineImage,
-      year: "2023",
+      year: "2020",
       description: "Vaxed & Opportunity Ready - An impactful radio PSA campaign encouraging youth vaccination and highlighting opportunities for vaccinated individuals.",
       audioFiles: [
         {
@@ -204,7 +204,7 @@ export default function Production() {
       title: "Vaccine Booster",
       category: "Radio",
       image: vaccineBoosterImage,
-      year: "2024",
+      year: "2020",
       description: "Booster Shots Now Available to All 18+ - A public health radio campaign promoting COVID-19 booster vaccination accessibility for adults.",
       audioFiles: [
         {
@@ -257,7 +257,7 @@ export default function Production() {
       title: "Ke Ready to Vax",
       category: "Radio",
       image: keReadyToVaxImage,
-      year: "2024",
+      year: "2020",
       description: "This campaign was a Vaccine promo campaign, we produced it in all 11 South African languages.",
       audioFiles: [
         {
@@ -278,7 +278,7 @@ export default function Production() {
       title: "NGX",
       category: "Live Streaming",
       image: ngxImage,
-      year: "2024",
+      year: "2022",
       description: "Professional live streaming production and broadcast coverage for Nigerian Exchange Group (NGX) events and market activities.",
       videoUrl: ngxVideo,
     },
@@ -286,7 +286,7 @@ export default function Production() {
       title: "Seplat Energy",
       category: "Live Streaming",
       image: seplatEnergyImage,
-      year: "2024",
+      year: "2023",
       description: "Professional live streaming production and coverage for Seplat Energy's corporate events and announcements.",
       videoUrl: seplatVideo,
     },
@@ -304,7 +304,7 @@ export default function Production() {
       title: "GTBank Brand Campaign",
       category: "TV Commercials",
       image: BankImage,
-      year: "2023",
+      year: "2016",
       description: "A dynamic brand campaign for GTBank, showcasing their commitment to excellence and innovation.",
       videoUrl: gtbankVideo,
     },
@@ -312,7 +312,7 @@ export default function Production() {
       title: "Prevent COVID-19",
       category: "Print",
       image: preventCovidImage,
-      year: "2021",
+      year: "2020",
       description: "A series of print ads promoting COVID-19 prevention and safety measures.",
       galleryImages: [
         printGallery1,
@@ -325,7 +325,7 @@ export default function Production() {
       title: "La Casera",
       category: "TV Commercials",
       image: lacaseraImage,
-      year: "2024",
+      year: "2017",
       description: "A refreshing commercial campaign for La Casera, highlighting the authentic taste and cultural connection of this beloved beverage.",
       videoUrl: lacaseraVideo,
     },
@@ -333,7 +333,7 @@ export default function Production() {
       title: "Frutiya",
       category: "TV Commercials",
       image: frutiyaImage,
-      year: "2024",
+      year: "2018",
       description: "A vibrant commercial campaign for Frutiya juice drinks, showcasing refreshing flavors and healthy lifestyle choices.",
       videoUrl: frutiyaVideo,
     },
@@ -414,7 +414,7 @@ export default function Production() {
           </div>
 
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-            Premium African Film & Media Production
+            Premium Film & Media Production
           </p>
         </div>
       </section>
@@ -427,12 +427,12 @@ export default function Production() {
             <div className="w-24 h-1 bg-[#2ab8fd] mb-8" />
             <p className="text-lg text-gray-300 leading-relaxed mb-6">
               Deo Media Production is a full-service film and media production company specializing in
-              world-class African storytelling. From concept development to post-production, we deliver
+              world-class storytelling. From concept development to post-production, we deliver
               cinematic excellence across feature films, documentaries, short films, and commercial campaigns.
             </p>
             <p className="text-gray-400 leading-relaxed">
               Our award-winning team combines technical expertise with creative vision to produce content
-              that resonates locally and captivates globally. We are committed to elevating African narratives
+              that resonates locally and captivates globally. We are committed to elevating narratives
               on the world stage.
             </p>
           </div>
@@ -474,7 +474,7 @@ export default function Production() {
                     </div>
                   </div>
                   <div className="absolute bottom-0 left-0 right-0 p-8">
-                    <p className="text-2xl font-bold">Deo Media Production Showcase Reel 2025</p>
+                    <p className="text-2xl font-bold">Deo Media Production Showcase Reel </p>
                   </div>
                 </div>
               )}

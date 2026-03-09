@@ -104,7 +104,7 @@ export default function Tech() {
             <p className="text-gray-400 leading-relaxed">
               From cloud-based budgeting tools to tax compliance systems and children's content platforms, 
               we leverage technology to streamline workflows, enhance productivity, and create new opportunities 
-              for African media professionals and audiences.
+              for media professionals and audiences.
             </p>
           </div>
         </div>

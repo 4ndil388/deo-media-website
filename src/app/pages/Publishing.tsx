@@ -47,7 +47,7 @@ export default function Publishing() {
           </div>
 
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-            Bringing African Stories to Readers Worldwide
+            Bringing Stories to Readers Worldwide
           </p>
         </div>
       </section>
